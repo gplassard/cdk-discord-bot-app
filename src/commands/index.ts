@@ -1,5 +1,5 @@
-import { HelloCommand } from "./Hello";
+import { HelloCommand } from './Hello';
 
 export const ALL_COMMANDS = [
-    HelloCommand,
-]
+  HelloCommand,
+];
