@@ -41,6 +41,15 @@
       ],
       "condition": "! git log --oneline -1 | grep -q \"chore(release):\""
     },
+    "cdk:app": {
+      "name": "cdk:app",
+      "steps": [
+        {
+          "exec": "yarn cdk --app \"ts-node ./bin/cdk/discord-bot.ts\"",
+          "receiveArgs": true
+        }
+      ]
+    },
     "clobber": {
       "name": "clobber",
       "description": "hard resets to HEAD of origin and cleans the local repo",
@@ -245,7 +254,7 @@
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade @gplassard/projen-extensions @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit npm-check-updates standard-version ts-jest ts-node typescript"
+          "exec": "yarn upgrade @gplassard/projen-extensions @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser aws-cdk aws-cdk-lib constructs esbuild eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit npm-check-updates standard-version ts-jest ts-node typescript @gplassard/cdk-discord-bot-construct slash-create"
         },
         {
           "exec": "npx projen"

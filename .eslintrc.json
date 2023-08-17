@@ -224,6 +224,14 @@
   "overrides": [
     {
       "files": [
+        "bin/cdk/**"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    },
+    {
+      "files": [
         ".projenrc.ts"
       ],
       "rules": {
