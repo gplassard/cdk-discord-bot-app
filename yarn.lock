@@ -481,12 +481,12 @@
   resolved "https://npm.pkg.github.com/download/@gplassard/cdk-discord-bot-construct/0.0.1/6704d2ca2c8182555ef2bde7001aacc8a737b3f6#6704d2ca2c8182555ef2bde7001aacc8a737b3f6"
   integrity sha512-4lpda9HK9sq5dgG6/HW6xf4NurN1LvC/9RcVDNww1ccmxm+Hf5538Hmn0Jb+pw/u5T+hQi91xSTCKbyMFRJ+0Q==
 
-"@gplassard/projen-extensions@^0.0.53":
-  version "0.0.53"
-  resolved "https://npm.pkg.github.com/download/@gplassard/projen-extensions/0.0.53/4ed614358a1ea398c5ffc1e9be58adde5deaed59#4ed614358a1ea398c5ffc1e9be58adde5deaed59"
-  integrity sha512-ULUORBZvp1H98C7+Nb/6P4xF5HkJIYw63nhIDAp5oHPNmza57jUCJ52Rs0QIBkZ8BhOLaUTeh5w5+XsYV7tzMg==
+"@gplassard/projen-extensions@^0.0.67":
+  version "0.0.67"
+  resolved "https://npm.pkg.github.com/download/@gplassard/projen-extensions/0.0.67/de8fc8638afd9bed2eaf9c8671315e9d97c3a384#de8fc8638afd9bed2eaf9c8671315e9d97c3a384"
+  integrity sha512-/BHcLf/us5cLQYo8f6vue6yK5sSeyN5YptlCTq+iSlaeiuo2RY8rjf4AwxPqd+A2sjdC9DZqSE1u0fYtq1V0Fw==
   dependencies:
-    projen "^0.73.3"
+    projen "^0.76.16"
 
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
@@ -1892,6 +1892,11 @@ console-control-strings@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
+
+constructs@^10.0.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.3.0.tgz#4c246fce9cf8e77711ad45944e9fbd41f1501965"
+  integrity sha512-vbK8i3rIb/xwZxSpTjz3SagHn1qq9BChLEfy5Hf6fB3/2eFbrwt2n9kHwQcS0CPTRBesreeAcsJfMq2229FnbQ==
 
 constructs@^10.2.70:
   version "10.2.70"
@@ -4957,15 +4962,16 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.73.3:
-  version "0.73.37"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.73.37.tgz#b75cd1da989eb512308da52e66affd97c4c93ed7"
-  integrity sha512-3M5kCkJGcSU7UBi7B1m5svTsZkIr0g6QnhEHHNLI+ujweaP4RlaMIoMOrZQsEpBF7mjFqtF6sSUpYKvrYlJsyw==
+projen@^0.76.16:
+  version "0.76.18"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.76.18.tgz#938f1a36ad7846fdb8726ed798828c9690df78e5"
+  integrity sha512-nzDhs4GUuiKjgkhDrMA/QFjlBnYUstuth3AfLgp2C5rUofDzLHu3cWVnIq2E/qXxE9FS9VP4bTlQgBZV3C3+/Q==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
     chalk "^4.1.2"
     comment-json "4.2.2"
+    constructs "^10.0.0"
     conventional-changelog-config-spec "^2.1.0"
     fast-json-patch "^3.1.1"
     glob "^8"
