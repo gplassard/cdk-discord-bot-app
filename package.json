@@ -26,22 +26,22 @@
   },
   "devDependencies": {
     "@gplassard/projen-extensions": "^0.1.72",
-    "@stylistic/eslint-plugin": "^2.13.0",
-    "@types/node": "^26.1.0",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/node": "^26.1.2",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "aws-cdk": "^2.1129.0",
-    "aws-cdk-lib": "^2.260.0",
+    "aws-cdk": "^2.1134.0",
+    "aws-cdk-lib": "^2.263.0",
     "constructs": "^10.0.0",
     "esbuild": "^0.28.1",
-    "eslint": "^9.39.4",
+    "eslint": "^9.39.5",
     "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-unused-imports": "^4.4.1",
     "projen": "^0.101.23",
     "tsx": "^4.23.4",
     "typescript": "^6",
-    "vitest": "^4.1.9"
+    "vitest": "^4.1.10"
   },
   "dependencies": {
     "@gplassard/cdk-discord-bot-construct": "^0.0.36",
